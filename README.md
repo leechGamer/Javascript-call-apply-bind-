@@ -31,6 +31,10 @@ console.log(cheese);
 
 
 
+![](https://github.com/gyoungeunbae/Javascript-call-apply-bind-/blob/master/img/callVideo.gif?raw=true)
+
+
+
 ## apply()
 
 **apply()** 메서드는 주어진 `this` 값과 배열 (또는 [유사 배열 객체](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Predefined_Core_Objects#Working_with_Array-like_objects)) 로 제공되는 `arguments` 로 함수를 호출합니다.
@@ -67,3 +71,4 @@ var cheese = new Food('feta', 5);
 console.log(cheese);
 ```
 
+![]()

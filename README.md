@@ -4,7 +4,7 @@
 
 ## call()
 
-**call()**메서드는 주어진 `this`값 및 각각 전달된 `arguments`와 함께 함수를 호출합니다.
+** call()**메서드는 주어진 `this`값 및 각각 전달된 `arguments`와 함께 함수를 호출합니다.
 
 ```javascript
 function Product(name, price) {
@@ -27,7 +27,6 @@ var cheese = new Food('feta', 5);
 console.log(cheese);
 ```
 
-![Screen Shot 2019-01-17 at 5.51.38 PM](/Users/ola/Desktop/Screen Shot 2019-01-17 at 5.51.38 PM.png)
 
 
 

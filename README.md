@@ -4,7 +4,7 @@
 
 ## call()
 
-** call()**메서드는 주어진 `this`값 및 각각 전달된 `arguments`와 함께 함수를 호출합니다.
+**call()** 메서드는 주어진 `this`값 및 각각 전달된 `arguments`와 함께 함수를 호출합니다.
 
 ```javascript
 function Product(name, price) {

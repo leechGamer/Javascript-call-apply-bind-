@@ -64,11 +64,15 @@ var cheese = new Food('feta', 5);
 console.log(cheese);
 ```
 
-![]()
+![](https://github.com/gyoungeunbae/Javascript-call-apply-bind-/blob/master/img/output.png?raw=true)
 
 
 
-**bind()**예제는  **call()** 에서의 **코드**와 거의 똑 같고, **결과값**도 같은 데요. 근본적인 차이점은  `call()` 은 함수에 전달될 **인수 리스트**를 받는데 비해, `apply()` 는 **인수들의❗단일❗️ 배열**을 받는다는 점입니다.
+![](https://github.com/gyoungeunbae/Javascript-call-apply-bind-/blob/master/img/output.png?raw=true)
+
+
+
+**apply()**예제는  **call()** 에서의 **코드**와 거의 똑 같고, **결과값**도 같은 데요. 근본적인 차이점은  `call()` 은 함수에 전달될 **인수 리스트**를 받는데 비해, `apply()` 는 **인수들의❗단일❗️ 배열**을 받는다는 점입니다.
 
 ```javascript
 Product.apply(this, [name, price]);

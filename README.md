@@ -64,7 +64,7 @@ var cheese = new Food('feta', 5);
 console.log(cheese);
 ```
 
-![](https://github.com/gyoungeunbae/Javascript-call-apply-bind-/blob/master/img/callVideo.gif?raw=true)
+![]()
 
 
 

@@ -27,6 +27,10 @@ var cheese = new Food('feta', 5);
 console.log(cheese);
 ```
 
+![](https://github.com/gyoungeunbae/Javascript-call-apply-bind-/blob/master/img/output.png?raw=true)
+
+
+
 
 
 
@@ -63,10 +67,6 @@ function Product(name, price) {
 var cheese = new Food('feta', 5);
 console.log(cheese);
 ```
-
-![](https://github.com/gyoungeunbae/Javascript-call-apply-bind-/blob/master/img/output.png?raw=true)
-
-
 
 ![](https://github.com/gyoungeunbae/Javascript-call-apply-bind-/blob/master/img/output.png?raw=true)
 

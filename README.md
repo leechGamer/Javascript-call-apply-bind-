@@ -81,3 +81,51 @@ Product.apply(this, [name, price]);
 
 
 ## bind()
+
+**bind()** 메소드는 호출될 때 그 `this` 키워드를 제공된 값으로 설정하고 새로운 함수가 호출될 때 제공되는 주어진 순서의 선행 인수가 있는 새로운 함수를 생성합니다. 
+
+
+
+```javascript
+function saySomething(something) { return "hi, " + this.name + ". " + something };
+ 
+console.log(saySomething("how are you?"));
+```
+
+위의 코드의 결과값은 어떻게 나올까요? 
+
+
+
+
+
+
+
+
+
+
+
+이 3가지는 모두 context를 맞춰주는 함수로서 this가 무엇인지
+
+newPrint() 함수는 blog 객체를 this에 바인딩시켜 print() 함수를 실행하는 새로운 함수다.
+
+출처: 
+
+https://boycoding.tistory.com/41
+
+ [소년코딩]
+
+
+
+call apply 메소드를 사용해서 this 값을 다른 context로 전달할 수 있다.
+
+
+
+### Reference
+
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/call>
+
+<https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply>
+
+<https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind>
+
+<https://m.blog.naver.com/PostView.nhn?blogId=writer0713&logNo=220487461542&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F>

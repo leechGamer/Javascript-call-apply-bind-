@@ -38,7 +38,7 @@ console.log(cheese);
 
 ## apply()
 
-**apply()** 메서드는 주어진 `this` 값과 배열 (또는 [유사 배열 객체](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Predefined_Core_Objects#Working_with_Array-like_objects)) 로 제공되는 `arguments` 로 함수를 호출합니다.
+**apply()** 메서드는 주어진 `this` 값과 배열로 제공되는 `arguments` 로 함수를 호출합니다.
 
 
 
@@ -78,12 +78,12 @@ Product.apply(this, [name, price]);
 
  *bind()의 주요 목적은 함수와 객체를 서로 묶는 것이다*
 
-프로그래밍언어론: **바인딩이란 ..?**
+
 
 ```javascript
 function saySomething(something) { return "hi, " + this.name + ". " + something };
-
 var person = { name: "kim" };
+
 var g = saySomething.bind(person);
 g("how are you?");
 ```
